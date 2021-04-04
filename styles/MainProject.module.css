@@ -1,0 +1,53 @@
+
+/* mainProject */
+
+.mainProject {
+    max-width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    background: #1E2025;
+    color: white;
+   
+}
+
+.mainProject > h1 {
+    padding: 0 30px;
+}
+
+.mainProject > h2 {
+    padding: 0 30px;
+}
+
+
+.mainProject .mainCase img {
+    padding: 10px;
+    width: 192px;
+    height: 278px;   
+}
+
+.mainProject .mainCase {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    align-items: center;
+    background:#1A1C21;
+
+    
+}
+
+.mainProject .mainCase section {
+    padding: 10px;
+}
+
+.contentCaps {
+    display: flex;
+    width: 98%;
+    flex-wrap: wrap;
+    margin: 10px 25px;
+
+}
+
+  /* mainProject */
+  

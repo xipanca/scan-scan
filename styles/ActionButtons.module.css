@@ -1,0 +1,32 @@
+.buttons button {
+    justify-content: space-between;
+    margin-left: 20px;
+    background-color: #2D9CFC;
+    color:white;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.buttons .active button:hover{
+    background:#1A1C21;
+    border: solid 2px #2D9CFC;
+}
+
+.active {
+    
+    cursor: pointer;
+}
+
+.buttons {
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.disabled {
+    background:#1A1C21;
+    border: solid 2px #2D9CFC;
+    opacity: 0.2;
+    cursor: default;
+}

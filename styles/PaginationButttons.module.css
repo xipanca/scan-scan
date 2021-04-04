@@ -1,0 +1,34 @@
+.ActionButtons {
+    background: #1E2025;
+    width: max-content;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+.ActionButtons .button1 {
+    justify-content: space-between;
+    background-color: #2D9CFC;
+    color:white;
+    padding: 5px 20px;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ActionButtons .button2 {
+    justify-content: space-between;
+    background-color: #2D9CFC;
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 0 10px 10px 0;
+}
+
+.ActionButtons a {
+    margin: 10px;
+    color:white;
+    border-radius: 10px;
+    font-size: 1rem;
+}

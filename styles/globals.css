@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background:#1A1C21;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.cardHome p {
+  text-align: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.cardHome img {
+  max-height: 250px;
+  width: 180px;
+  height: 250px;
+  max-width: 180px;
+  border-radius: 2%;
+}
+
+.cardHome:hover {
+  cursor: pointer;
+}
+/* containerHome */
+
+
+
+/* mainProject */
+
+.mainProject {
+  max-width: 980px;
+  height: 100%;
+  padding: 30px;
+  display: grid;
+  grid-template-rows: 3;
+  background: rgba(12, 12, 12, 0.89);
+  color: white;
+  margin: 0 auto;
+}
+
+.mainProject img {
+  padding: 10px;
+  max-height: 250px;
+  width: 180px;
+  height: 250px;
+  max-width: 180px;
+  
+}
+.mainProject > div {
+  display: flex;
+  background: rgba(31, 30, 30, 0.89);
+}
+
+.mainProject > div p {
+  margin-left: 15px;
+}
+
+/* mainProject */
+
+/* capsList */
+
+.capsList div {
+  display: flex;
+  width: 100%;
+  padding: 10px;  
+}
+
+.capsList:hover {
+  background: rgba(218, 24, 24, 0.89);
+  cursor: pointer;
+
+}
+
+.capsListItem {
+  background: rgba(218, 24, 24, 0.89);
+  width: 95%;
+  padding: 5px 5px;
+  margin: 0 auto;
+}
+.CapsImg {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.CapsImg img {
+  max-width: 980px;
+  width: 90vw;
+
+}
+.capsContent {
+  padding: 30px;
+  display: grid;
+  height: max-content;
+  grid-template-rows: 3;
+  color: white;
+  justify-content: center;
+
+}
+
+.capsContainer {
+  width: 90vw;
+  margin: 0 auto;
+}
+.actionButton {
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.actionButton button {
+  justify-content: space-between;
+  margin-left: 20px;
+  background: rgba(110, 11, 202, 0.89);
+  color:white;
+  padding: 5px 10px;
+}
+
+.actionButton button:hover {
+  cursor: pointer;
+}
+
+
+.ActionButton {
+  display: flex;
+  justify-content: center;
+  padding: 10px 25px;
+}
+.ActionButton button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: blueviolet;
+  color: aqua;
+  border-radius: 10%;
+}

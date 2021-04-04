@@ -1,0 +1,17 @@
+
+.navHeader ul {
+    display: flex;
+    
+  }
+  .navHeader ul section a {
+    margin-left: 10px;
+    padding: 10px;
+    color: #6D7073;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .active {
+    color: white !important;
+  
+  }

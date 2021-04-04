@@ -1,0 +1,19 @@
+.CapsList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CapsList > div {
+    width: max-content;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: #2D9CFC;
+}
+
+.CapsList > div:hover {
+    cursor: pointer;
+    background-color: rgb(19, 18, 18);
+
+}
+

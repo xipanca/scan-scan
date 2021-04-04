@@ -1,0 +1,63 @@
+.containerHome {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  background: #1E2025;
+  margin: 0 auto;
+  
+}
+.carousel {
+
+  display: flex;
+  width: 70vw;
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory;
+  margin-top: 0.3rem;
+  -webkit-overflow-scrolling: touch;
+  border-bottom: solid 1px rgba(80, 79, 79, 0.4);
+}
+
+.topContent {
+  height: max-content;
+  display: flex;
+  margin-top: 0.3rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: solid 1px rgba(80, 79, 79, 0.4);
+} 
+
+.ListContent {
+  height: max-content;
+  display: flex;
+  margin: 10px;
+  margin-top: 0.3rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.sidebar {
+  border-left: solid 1px rgba(80, 79, 79, 0.4);
+}
+
+.sidebarTopList p {  
+  color: #65696B; 
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 3px 0;
+  margin: 0 auto; 
+}
+
+.sidebarTopList {
+  display: flex;
+  flex-wrap: wrap;
+  height: max-content;
+  align-content: center;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

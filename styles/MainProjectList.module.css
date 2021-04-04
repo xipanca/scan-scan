@@ -1,0 +1,11 @@
+.containerContact {
+    width: 90vw;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #1E2025;
+    color: white;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+  

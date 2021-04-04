@@ -1,0 +1,11 @@
+.main {
+    flex:none;
+    scroll-snap-align: start;
+    width: max-content;
+  -webkit-overflow-scrolling: touch;
+
+}
+
+.main img {
+    margin-left: 15px;
+}

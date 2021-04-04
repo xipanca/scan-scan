@@ -1,0 +1,29 @@
+.cardHome {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 180px;
+    height: max-content;
+    background:#1A1C21;
+    border-radius: 3%;
+    margin: 10px 30px;
+    justify-content: space-around;
+}
+.cardHome p {
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+    margin: 5 5px
+}
+
+.cardHome img {
+    max-height: 250px;
+    width: 180px;
+    height: 250px;
+    max-width: 180px;
+    border-radius: 3% 3% 0 0;
+    border-bottom: solid 2px rgb(129, 127, 127);
+}
+
+.cardHome:hover {
+    cursor: pointer;    
+}
